@@ -3,7 +3,7 @@
 Assurez-vous d'avoir un environnement virtuel configuré. Pour activer l'environnement virtuel, exécutez la commande suivante :
 
 ```bash
-source /Users/antoine/Projet/python-exo-livecampus/exo1/venv/bin/activate
+source /Users/antoine/Projet/python-exo-livecampus/venv/bin/activate
 ```
 
 ## Utilisation
