@@ -8,8 +8,12 @@ source /Users/antoine/Projet/python-exo-livecampus/venv/bin/activate
 
 ## Utilisation
 
-Pour exécuter le script `ip_validator.py`, utilisez la commande suivante :
+Pour exécuter les scripts `main.py`, utilisez la commande suivante :
 
 ```bash
-python /Users/antoine/Projet/python-exo-livecampus/exo1/main.py
+python3 /Users/antoine/Projet/python-exo-livecampus/exo1/main.py
+```
+
+```bash
+python3 /Users/antoine/Projet/python-exo-livecampus/exo2/main.py
 ```
