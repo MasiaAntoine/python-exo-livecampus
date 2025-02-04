@@ -21,3 +21,7 @@ python3.11 /Users/antoine/Projet/python-exo-livecampus/exo1/main.py
 ```bash
 python3.11 /Users/antoine/Projet/python-exo-livecampus/exo2/main.py
 ```
+
+```bash
+python3.11 /Users/antoine/Projet/python-exo-livecampus/exo3/main.py
+```
