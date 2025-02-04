@@ -1,4 +1,4 @@
-class ClientIdentity:
+class _ClientIdentity:
     """
     Classe pour représenter l'identité d'un client.
 
@@ -12,7 +12,7 @@ class ClientIdentity:
         self.address = address
         self.phone = phone
 
-class BankAccount:
+class _BankAccount:
     """
     Classe pour représenter un compte en banque.
 
@@ -50,17 +50,17 @@ class BankAccount:
         else:
             print("Montant invalide ou solde insuffisant.")
 
-class PersonalBankAccount(BankAccount, ClientIdentity):
+class PersonalBankAccount(_BankAccount, _ClientIdentity):
     """
     Classe pour la gestion d’un compte bancaire pour un particulier.
 
     Hérite de:
-        BankAccount: Pour les opérations bancaires.
-        ClientIdentity: Pour l'identité du client.
+        _BankAccount: Pour les opérations bancaires.
+        _ClientIdentity: Pour l'identité du client.
     """
     def __init__(self, name, address, phone, account_number, balance=0.0):
-        BankAccount.__init__(self, account_number, balance)
-        ClientIdentity.__init__(self, name, address, phone)
+        _BankAccount.__init__(self, account_number, balance)
+        _ClientIdentity.__init__(self, name, address, phone)
 
     def display_account_info(self):
         """
