@@ -1,6 +1,16 @@
 import re
 
 class IPValidator:
+    """
+    Classe pour valider et détecter les versions des adresses IP.
+
+    Méthodes:
+        is_valid_ipv4(ip): Vérifie si l'adresse IP donnée est une IPv4 valide.
+        is_valid_ipv6(ip): Vérifie si l'adresse IP donnée est une IPv6 valide.
+        detect_ip_version(ip): Détecte si l'adresse IP est une IPv4 ou une IPv6 et renvoie la version.
+        validate_ip_list(ip_list): Valide une liste ou un dictionnaire d'adresses IP et renvoie leur version.
+        validate_ip_dict(ip_dict): Valide un dictionnaire d'adresses IP et renvoie leur version.
+    """
     def __init__(self):
         pass
 
