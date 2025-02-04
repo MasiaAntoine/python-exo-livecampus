@@ -1,0 +1,77 @@
+import re
+
+class IPValidator:
+    def __init__(self):
+        pass
+
+    def is_valid_ipv4(self, ip):
+        """
+        Vérifie si l'adresse IP donnée est une IPv4 valide.
+
+        Args:
+            ip (str): L'adresse IPv4 à vérifier.
+
+        Returns:
+            bool: True si l'adresse est valide, False sinon.
+        """
+        pattern = re.compile(r"^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$")
+        if pattern.match(ip):
+            return all(0 <= int(num) <= 255 for num in ip.split('.'))
+        return False
+
+    def is_valid_ipv6(self, ip):
+        """
+        Vérifie si l'adresse IP donnée est une IPv6 valide.
+
+        Args:
+            ip (str): L'adresse IPv6 à vérifier.
+
+        Returns:
+            bool: True si l'adresse est valide, False sinon.
+        """
+        pattern = re.compile(r"^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$")
+        return bool(pattern.match(ip))
+
+    def detect_ip_version(self, ip):
+        """
+        Détecte si l'adresse IP est une IPv4 ou une IPv6 et renvoie la version.
+
+        Args:
+            ip (str): L'adresse IP à vérifier.
+
+        Returns:
+            str: "IPv4" si l'adresse est une IPv4, "IPv6" si l'adresse est une IPv6, "Invalid IP" sinon.
+        """
+        if self.is_valid_ipv4(ip):
+            return "IPv4"
+        elif self.is_valid_ipv6(ip):
+            return "IPv6"
+        else:
+            return "Invalid IP"
+
+    def validate_ip_list(self, ip_list):
+        """
+        Valide une liste ou un dictionnaire d'adresses IP et renvoie leur version.
+
+        Args:
+            ip_list (list ou dict): Liste ou dictionnaire d'adresses IP à vérifier.
+
+        Returns:
+            dict: Dictionnaire avec les adresses IP et leur version.
+        """
+        if isinstance(ip_list, dict):
+            return {host: self.detect_ip_version(ip) for host, ip in ip_list.items()}
+        else:
+            return {ip: self.detect_ip_version(ip) for ip in ip_list}
+
+    def validate_ip_dict(self, ip_dict):
+        """
+        Valide un dictionnaire d'adresses IP et renvoie leur version.
+
+        Args:
+            ip_dict (dict): Dictionnaire d'adresses IP à vérifier.
+
+        Returns:
+            dict: Dictionnaire avec les adresses IP et leur version.
+        """
+        return {host: self.detect_ip_version(ip) for host, ip in ip_dict.items()}
