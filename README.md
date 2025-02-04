@@ -40,3 +40,7 @@ Pour executer les tests, utilisez la commande suivante :
 cd /Users/antoine/Projet/python-exo-livecampus/exo6/
 python -m unittest discover
 ```
+
+```bash
+pytest test_deck_pytest.py
+```
