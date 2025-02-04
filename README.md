@@ -33,3 +33,10 @@ python3.11 /Users/antoine/Projet/python-exo-livecampus/exo4/main.py
 ```bash
 python3.11 /Users/antoine/Projet/python-exo-livecampus/exo5/main.py
 ```
+
+Pour executer les tests, utilisez la commande suivante :
+
+```bash
+cd /Users/antoine/Projet/python-exo-livecampus/exo6/
+python -m unittest discover
+```
