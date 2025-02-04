@@ -1,4 +1,4 @@
-from deck import Deck
+from Deck.Deck import Deck
 
 def main():
     num_players = int(input("Veuillez entrer le nombre de joueurs (2-10): "))
