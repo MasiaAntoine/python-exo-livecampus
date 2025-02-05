@@ -1,12 +1,12 @@
 ## 📋 Table of Contents
 
-- [⚙️ Prérequis](#-prérequis)
+- [⚙️ Prérequis](#⚙️-prérequis)
 - [🚀 Utilisation](#-utilisation)
   - [📜 Exécution des scripts](#-exécution-des-scripts)
   - [🧪 Exécution des tests](#-exécution-des-tests)
   - [⚡ Démarrage de FastAPI](#-démarrage-de-fastapi)
-  - [🗄️ Démarrage de SQLite](#-démarrage-de-sqlite)
-- [ℹ️ Informations sur le projet](#-informations-sur-le-projet)
+  - [🗄️ Démarrage de SQLite](#🗄️-démarrage-de-sqlite)
+- [ℹ️ Informations sur le projet](#ℹ️-informations-sur-le-projet)
 
 ## ⚙️ Prérequis
 
