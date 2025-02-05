@@ -55,3 +55,7 @@ Pour démarrer SQLite, utilisez la commande suivante :
 ```bash
 cd /Users/antoine/Projet/python-exo-livecampus/exo8 && uvicorn main:app --reload
 ```
+
+## ℹ️ Informations sur le projet
+
+Ce projet est un exercice Python pour découvrir Python en 1 semaine. Il fait partie du programme de l'école [LiveCampus](https://www.livecampus.fr).
