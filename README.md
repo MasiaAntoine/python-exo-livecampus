@@ -1,3 +1,12 @@
+## 📋 Table of Contents
+
+- [⚙️ Prérequis](#-prérequis)
+- [🚀 Utilisation](#-utilisation)
+  - [📜 Exécution des scripts](#-exécution-des-scripts)
+  - [🧪 Exécution des tests](#-exécution-des-tests)
+  - [⚡ Démarrage de FastAPI](#-démarrage-de-fastapi)
+  - [🗄️ Démarrage de SQLite](#-démarrage-de-sqlite)
+
 ## ⚙️ Prérequis
 
 Assurez-vous d'avoir un environnement virtuel configuré. Pour activer l'environnement virtuel, exécutez les commandes suivantes :
@@ -6,15 +15,6 @@ Assurez-vous d'avoir un environnement virtuel configuré. Pour activer l'environ
 /opt/homebrew/opt/python@3.11/bin/python3.11 -m venv /Users/antoine/Projet/python-exo-livecampus/venv
 source /Users/antoine/Projet/python-exo-livecampus/venv/bin/activate
 ```
-
-## 📋 Table of Contents
-
-- [⚙️ Prérequis](#⚙️-prérequis)
-- [🚀 Utilisation](#🚀-utilisation)
-  - [📜 Exécution des scripts](#📜-exécution-des-scripts)
-  - [🧪 Exécution des tests](#🧪-exécution-des-tests)
-  - [⚡ Démarrage de FastAPI](#⚡-démarrage-de-fastapi)
-  - [🗄️ Démarrage de SQLite](#🗄️-démarrage-de-sqlite)
 
 ## 🚀 Utilisation
 
