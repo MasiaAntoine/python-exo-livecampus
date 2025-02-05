@@ -44,3 +44,9 @@ python -m unittest discover
 ```bash
 pytest test_deck_pytest.py
 ```
+
+Pour démarrer fastapi :
+
+```bash
+cd /Users/antoine/Projet/python-exo-livecampus/exo7 && uvicorn main:app --reload
+```
