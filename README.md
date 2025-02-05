@@ -50,3 +50,9 @@ Pour démarrer fastapi :
 ```bash
 cd /Users/antoine/Projet/python-exo-livecampus/exo7 && uvicorn main:app --reload
 ```
+
+Pour démarrer SQLite :
+
+```bash
+cd /Users/antoine/Projet/python-exo-livecampus/exo8 && uvicorn main:app --reload
+```
