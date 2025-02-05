@@ -1,4 +1,4 @@
-## Prérequis ⚙️
+## ⚙️ Prérequis
 
 Assurez-vous d'avoir un environnement virtuel configuré. Pour activer l'environnement virtuel, exécutez les commandes suivantes :
 
@@ -7,9 +7,18 @@ Assurez-vous d'avoir un environnement virtuel configuré. Pour activer l'environ
 source /Users/antoine/Projet/python-exo-livecampus/venv/bin/activate
 ```
 
-## Utilisation 🚀
+## 📋 Table of Contents
 
-### Exécution des scripts 📜
+- [⚙️ Prérequis](#⚙️-prérequis)
+- [🚀 Utilisation](#🚀-utilisation)
+  - [📜 Exécution des scripts](#📜-exécution-des-scripts)
+  - [🧪 Exécution des tests](#🧪-exécution-des-tests)
+  - [⚡ Démarrage de FastAPI](#⚡-démarrage-de-fastapi)
+  - [🗄️ Démarrage de SQLite](#🗄️-démarrage-de-sqlite)
+
+## 🚀 Utilisation
+
+### 📜 Exécution des scripts
 
 Pour exécuter les scripts `main.py`, utilisez les commandes suivantes :
 
@@ -21,7 +30,7 @@ python3.11 /Users/antoine/Projet/python-exo-livecampus/exo4/main.py
 python3.11 /Users/antoine/Projet/python-exo-livecampus/exo5/main.py
 ```
 
-### Exécution des tests 🧪
+### 🧪 Exécution des tests
 
 Pour exécuter les tests, utilisez les commandes suivantes :
 
@@ -31,7 +40,7 @@ python -m unittest discover
 pytest test_deck_pytest.py
 ```
 
-### Démarrage de FastAPI ⚡
+### ⚡ Démarrage de FastAPI
 
 Pour démarrer FastAPI, utilisez la commande suivante :
 
@@ -39,7 +48,7 @@ Pour démarrer FastAPI, utilisez la commande suivante :
 cd /Users/antoine/Projet/python-exo-livecampus/exo7 && uvicorn main:app --reload
 ```
 
-### Démarrage de SQLite 🗄️
+### 🗄️ Démarrage de SQLite
 
 Pour démarrer SQLite, utilisez la commande suivante :
 
